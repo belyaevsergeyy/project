@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: SansSerif;
+
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 0.1rem solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-container {
+    width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.central-container {
+    width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.menu-item:first-child {
+    font-weight: 700;
+}
+
+.menu_item:last-child {
+    margin-right: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.1rem solid;
+
+}
+
+.image {
+    height: 100%;
+
+}
+
+.text {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.gal {
+   width: 100%;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 900;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-container {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.bottom-pictures {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-bottom: 0.1rem solid;
+    margin-top:10px;
+}
+
+.text-icon {
+    margin-bottom: 30px;
+    margin-top:10px;
+}
+
+.bottom-pictures: nth-child(3n+2) {
+    border-right: 0.1rem solid;
+    border-left: 0.1rem solid;
+}
+
+.button {
+    width: 60px;
+    height: 30px;
+    margin-top: 20px
+}
+
+.number {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first, .second, .last {
+    width: 200px;
+    height: 200px;
+    margin: 4px;
+}
+
+.first {
+    background: red;
+}
+
+.second {
+    background-color: green;
+}
+
+.last {
+    background-color: blue;
+}
+
+.logo-menu-mobile {
+
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .second {
+        background-color: black;
+    }
+}
